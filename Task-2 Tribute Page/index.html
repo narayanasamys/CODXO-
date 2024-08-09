@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Albert Einstein</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #b35858;
+        }
+        header {
+            background: #577996;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        #einstein-image {
+            display: block;
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 10%;
+            transition: filter 0.3s ease;
+        }
+        .timeline {
+            background: hsl(0, 48%, 94%);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .timeline h2 {
+            color: #7c3676;
+        }
+        #quote {
+            font-style: italic;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .achievements {
+            background: #ece5e5;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .achievements h2 {
+            color: #771477;
+        }
+        .about {
+            background: #fffcfc;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .about h2 {
+            color: #642761;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Albert Einstein</h1>
+            <p>Theoretical Physicist</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <img id="einstein-image" src="Albert.jpeg" alt="Albert Einstein">
+        
+        <div class="timeline">
+            <h2>Timeline</h2>
+            <ul id="timelineList"></ul>
+        </div>
+
+        <div id="quote"></div>
+
+        <div class="achievements">
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Developed the theory of relativity, one of the two pillars of modern physics.</li>
+                <li>Received the Nobel Prize in Physics in 1921 for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect.</li>
+                <li>Made significant contributions to the foundations of quantum mechanics, statistical mechanics, and cosmology.</li>
+                <li>Proposed the famous equation E=mc², which established the relationship between energy and mass.</li>
+                <li>Recognized as one of the most influential scientists of the 20th century, with his work and image becoming synonymous with genius and scientific advancement.</li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <h2>About Albert Einstein</h2>
+            <p>Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics. His work is also known for its influence on the philosophy of science. He is best known to the general public for his mass–energy equivalence formula E = mc².</p>
+            <p>Einstein received numerous awards and honors, including the Nobel Prize in Physics. He is widely regarded as one of the most influential and prolific scientists of all time, with his impact extending far beyond the field of physics.</p>
+            <p>Einstein's intellectual achievements and originality have made the word "Einstein" synonymous with genius. He is often regarded as the father of modern physics, and his image is instantly recognizable worldwide.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
